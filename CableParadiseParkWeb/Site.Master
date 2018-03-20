@@ -39,26 +39,27 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+        <div class="container">
+            <nav class="navbar fixed-top navbar-light bg-primary">
+                <a class="navbar-brand" href="#">Cable Paradise Park</a>
+                <a class="navbar-brand" href="#">Schedule Ahead</a>
+                <a class="navbar-brand" href="#">Rates</a>
+                <a class="navbar-brand" href="#">Groups</a>
+                <a class="navbar-brand" href="#">Summer Camps</a>
+                <a class="navbar-brand" href="#">FAQ</a>
+                <a class="navbar-brand" href="#">Contact Us</a>
+                <a href="https://www.facebook.com/CableParadisePark/">
+                    <img src="Content/Images/fb-art.png" alt="Facebook" height="25px" width="25"></img></a>
+                <a href="https://www.instagram.com/cableparadise/">
+                    <img src="Content/Images/ig-logo-email.png" alt="Facebook" height="25px" width="25"></img></a>
+                <a href="https://www.snapchat.com/add/cableparadise">
+                    <img src="Content/Images/ngrzbgwugpzqhkbccway.png" alt="Facebook" height="25px" width="25"></img></a>
+                <a href="https://www.youtube.com/channel/UCN2mvrhLPfp2Fyx6hUMkT-w?view_as=subscriber">
+                    <img src="Content/Images/social-youtube-icon.png" alt="Facebook" height="25px" width="25"></img></a>
+            </nav>
         </div>
         <div class="container body-content">
+
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
