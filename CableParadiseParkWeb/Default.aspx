@@ -2,41 +2,53 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-    </div>
+<div style="background-color:black;color:white;height: 504px;width: 896px; margin-top:20px;margin-left:auto;margin-right:auto;">
+ Put a video here
+</div>
+<div class="text" style="padding-bottom:15px;">
+        <img src="Content/Images/CPP big.png" alt="Cable Paradise Park Logo" height="400px" width="600"></img>
+        <span style="color:Cornflowerblue; font-size: 36px;font-family:Impact, Charcoal, sans-serif;padding-top: 50px;">
+                <strong><br>Hours<br></strong>
+        </span>
+        <span style="color:Cornflowerblue;">
+                Reservation Only Until April<br>
+                $100 For Two Hour Group Reservation<br>
+                $40 for Every Additional Hour<br>
+        </span>
+</div>
+<div class="text" style="width: 50%; margin: 0 auto;">
+  <img class="mySlides" src="Content/Images/Beach and board.JPG" style="width:500px;height:375px">
+  <img class="mySlides" src="Content/Images/IMG_6742.JPG" style="width:500px;height:375px">
+  <img class="mySlides" src="Content/Images/IMG_6745.JPG" style="width:500px;height:375px">
+  <img class="mySlides" src="Content/Images/IMG_6746.JPG" style="width:500px;height:375px">
+  <img class="mySlides" src="Content/Images/Trent Kickin It.jpg" style="width:500px;height:375px">
+</div>
 
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Getting started</h2>
-            <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-            </p>
-        </div>
-    </div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<br>
+
+<h1><center>About Cable Paradise</center></h1>
+<p><center>Located in Eastern North Carolina, Cable Paradise Park is a wakeboarding and water-sports complex with
+two 2-tower wakeboard systems. Cable Paradise offers wakeboarding for all skill levels alongside a family 
+fun recreation and water-sports complex. Contact us about private lessons, summer camps, birthday parties,
+group events, or come by the park to do some wakeboarding today!</center>
+</p>
+
 
 </asp:Content>
