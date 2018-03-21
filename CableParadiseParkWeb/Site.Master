@@ -44,12 +44,12 @@
         <div class="container">
             <nav class="navbar fixed-top navbar-light bg-primary">
                 <a class="navbar-brand" href="Default.aspx">Cable Paradise Park</a>
-                <a class="navbar-brand" href="#">Schedule Ahead</a>
-                <a class="navbar-brand" href="#">Rates</a>
-                <a class="navbar-brand" href="#">Groups</a>
-                <a class="navbar-brand" href="#">Summer Camps</a>
-                <a class="navbar-brand" href="#">FAQ</a>
-                <a class="navbar-brand" href="#">Contact Us</a>
+                <a class="navbar-brand" href="ScheduleAhead.aspx">Schedule Ahead</a>
+                <a class="navbar-brand" href="Rates.aspx">Rates</a>
+                <a class="navbar-brand" href="Groups.aspx">Groups</a>
+                <a class="navbar-brand" href="SummmerCamps.aspx">Summer Camps</a>
+                <a class="navbar-brand" href="FAQ.aspx">FAQ</a>
+                <a class="navbar-brand" href="ContactUs.aspx">Contact Us</a>
                 <a href="https://www.facebook.com/CableParadisePark/">
                     <img src="Content/Images/fb-art.png" alt="Facebook" height="25px" width="25"></img></a>
                 <a href="https://www.instagram.com/cableparadise/">
