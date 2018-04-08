@@ -6,7 +6,8 @@
  Put a video here
 </div>
 <div class="text" style="padding-bottom:15px;">
-        <img src="Content/Images/CPP big.png" alt="Cable Paradise Park Logo" height="400px" width="600"></img>
+    <center>
+        <img src="Content/Images/CPP big.png" alt="Cable Paradise Park Logo" height="400" width="600">
         <span style="color:Cornflowerblue; font-size: 36px;font-family:Impact, Charcoal, sans-serif;padding-top: 50px;">
                 <strong><br>Hours<br></strong>
         </span>
@@ -15,6 +16,7 @@
                 $100 For Two Hour Group Reservation<br>
                 $40 for Every Additional Hour<br>
         </span>
+     </center>
 </div>
 <div class="text" style="width: 50%; margin: 0 auto;">
   <img class="mySlides" src="Content/Images/Beach and board.JPG" style="width:500px;height:375px">

@@ -9,7 +9,6 @@
 </video>
 </div>
 <div style="align-content:center">
-<img src="Content/Images/Summer Camp Final Flyer.jpg" alt="Cable Paradise Park Summer Camp Rates" style="width:960px"> /img>
-</div>
+<img src="Content/Images/Summer Camp Final Flyer.jpg" alt="Cable Paradise Park Summer Camp Rates" style="width:960px">
 </div>
 </asp:Content>

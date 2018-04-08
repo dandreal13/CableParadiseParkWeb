@@ -4,6 +4,6 @@
 <div class="content">
     <h1 style="color:black">Groups </h1>
 </div>
-<img src="Content/Images/Cable Paradise Park.jpg" alt="groups" height="1100" width="960" /> /img>
+<img src="Content/Images/Cable Paradise Park.jpg" alt="groups" height="1100" width="960">
 
 </asp:Content>
