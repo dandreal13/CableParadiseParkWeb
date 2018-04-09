@@ -152,6 +152,7 @@
     <Content Include="Content\Images\Summer Camp Final Flyer.jpg" />
     <Content Include="Content\Images\Trent Kickin It.jpg" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\Videos\Summer Camp Final.mp4" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />

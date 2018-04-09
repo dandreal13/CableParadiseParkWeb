@@ -4,7 +4,7 @@
 <div style="text-align:center;font-size:36px;color:deepskyblue;vertical-align:bottom">
     <div style="border: 5px solid deepskyblue;margin-top:12px;margin-left:250px;margin-right:250px;">Welcome to Summer Camp!</div>
 <video width="960" height="550" autoplay loop muted>
-    <source src="Videos/Summer Camp Final.mp4" type="video/mp4">
+    <source src="Content/Videos/Summer Camp Final.mp4" type="video/mp4">
     This video is not supported by your browser.
 </video>
 </div>
