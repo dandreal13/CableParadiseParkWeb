@@ -14,7 +14,7 @@
             <br />
             Last Name:   <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             <br />
-            Pick a Date:   <asp:TextBox ID="TextBox3" runat="server" Width="17px"></asp:TextBox>
+            Pick a Date:   <asp:TextBox ID="TextBox3" runat="server" Width="17px" OnTextChanged="TextBox3_TextChanged"></asp:TextBox>
             /<asp:TextBox ID="TextBox5" runat="server" Width="16px"></asp:TextBox>
             /<asp:TextBox ID="TextBox6" runat="server" Width="50px"></asp:TextBox>
 &nbsp;(MM/DD/YYYY)<br />
@@ -45,7 +45,7 @@
             <br />
             <asp:Button ID="Button2" runat="server" Text="See Price" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button1" runat="server" Text="Submit" />
+            <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" />
             <br />
             <br />
             <asp:HiddenField ID="HiddenField1" runat="server" />
