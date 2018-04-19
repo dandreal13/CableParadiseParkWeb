@@ -2,10 +2,12 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
+<center>
 <video style="text-align: center" width="960" height="550" autoplay loop muted>
     <source src="Content/Videos/Website Video.mp4" type="video/mp4">
     This video is not supported by your browser.
 </video>
+</center>
 <div>
     <center>
         <img src="Content/Images/CPP big.png" alt="Cable Paradise Park Logo" height="400" width="600">
