@@ -137,6 +137,7 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Databases\CPPdatabase.accdb" />
     <Content Include="Content\Images\Beach and board.JPG" />
     <Content Include="Content\Images\Cable Paradise Park.jpg" />
     <Content Include="Content\Images\CPP big.png" />
@@ -153,6 +154,7 @@
     <Content Include="Content\Images\Trent Kickin It.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\Videos\Summer Camp Final.mp4" />
+    <Content Include="Content\Videos\Website Video.mp4" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />

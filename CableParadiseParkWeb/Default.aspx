@@ -2,10 +2,11 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-<div style="background-color:black;color:white;height: 504px;width: 896px; margin-top:20px;margin-left:auto;margin-right:auto;">
- Put a video here
-</div>
-<div class="text" style="padding-bottom:15px;">
+<video style="text-align: center" width="960" height="550" autoplay loop muted>
+    <source src="Content/Videos/Website Video.mp4" type="video/mp4">
+    This video is not supported by your browser.
+</video>
+<div>
     <center>
         <img src="Content/Images/CPP big.png" alt="Cable Paradise Park Logo" height="400" width="600">
         <span style="color:Cornflowerblue; font-size: 36px;font-family:Impact, Charcoal, sans-serif;padding-top: 50px;">
