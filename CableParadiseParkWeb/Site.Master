@@ -64,12 +64,12 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <footer>
+            <footer><center>
                 <p>&copy; <%: DateTime.Now.Year %> by Cable Paradise Park, LLC</p>
                 <p class="center">cableparadisepark@gmail.com</p>
                 <p class="center">704-807-4463</p>
                 <p class="center">9271 NC HWY 903, Ayden, NC</p>
-            </footer>
+            </center></footer>
         </div>
     </form>
 </body>
