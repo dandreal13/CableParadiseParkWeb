@@ -1,4 +1,4 @@
-﻿<%@ Page Title="CPP Summer Camps" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="SummerCamps.aspx.cs" Inherits="CableParadiseParkWeb.WebForm6" %>
+﻿<%@ Page Title="Summer Camps" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="SummerCamps.aspx.cs" Inherits="CableParadiseParkWeb.WebForm6" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 <div style="text-align:center;font-size:36px;color:deepskyblue;vertical-align:bottom">

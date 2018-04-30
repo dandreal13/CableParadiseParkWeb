@@ -29,6 +29,7 @@
   <img class="mySlides" src="Content/Images/Trent Kickin It.jpg" style="width:500px;height:375px">
 </div>
 
+
 <script>
 var myIndex = 0;
 carousel();
