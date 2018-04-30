@@ -41,35 +41,53 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-        <div class="container">
-            <nav class="navbar fixed-top navbar-light bg-primary">
-                <a class="navbar-brand" href="Default.aspx">Cable Paradise Park</a>
-                <a class="navbar-brand" href="ScheduleAhead.aspx">Schedule Ahead</a>
-                <a class="navbar-brand" href="Rates.aspx">Rates</a>
-                <a class="navbar-brand" href="Groups.aspx">Groups</a>
-                <a class="navbar-brand" href="SummerCamps.aspx">Summer Camps</a>
-                <a class="navbar-brand" href="FAQ.aspx">FAQ</a>
-                <a class="navbar-brand" href="ContactUs.aspx">Contact Us</a>
-                <a href="https://www.facebook.com/CableParadisePark/">
-                    <img src="Content/Images/fb-art.png" alt="Facebook" height="25px" width="25"></img></a>
-                <a href="https://www.instagram.com/cableparadise/">
-                    <img src="Content/Images/ig-logo-email.png" alt="Facebook" height="25px" width="25"></img></a>
-                <a href="https://www.snapchat.com/add/cableparadise">
-                    <img src="Content/Images/ngrzbgwugpzqhkbccway.png" alt="Facebook" height="25px" width="25"></img></a>
-                <a href="https://www.youtube.com/channel/UCN2mvrhLPfp2Fyx6hUMkT-w?view_as=subscriber">
-                    <img src="Content/Images/social-youtube-icon.png" alt="Facebook" height="25px" width="25"></img></a>
-            </nav>
+        <div class="navbar navbar-expand-lg fixed-top navbar-light bg-primary">
+            <div class="container">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav customNavBar navbarAnchor">
+                        <li><a class="navbar-brand" href="Default.aspx">Cable Paradise Park</a></li>
+                        <li><a class="navbar-brand" href="ScheduleAhead.aspx">Schedule Ahead</a></li>
+                        <li><a class="navbar-brand" href="Rates.aspx">Rates</a></li>
+                        <li><a class="navbar-brand" href="Groups.aspx">Groups</a></li>
+                        <li><a class="navbar-brand" href="SummerCamps.aspx">Summer Camps</a></li>
+                        <li><a class="navbar-brand" href="FAQ.aspx">FAQ</a></li>
+                        <li><a class="navbar-brand" href="ContactUs.aspx">Contact Us</a></li>
+                        <li><a href="https://www.facebook.com/CableParadisePark/">
+                            <img src="Content/Images/fb-art.png" alt="Facebook" height="25px" width="25"></img></a>
+                        <a href="https://www.instagram.com/cableparadise/">
+                            <img src="Content/Images/ig-logo-email.png" alt="Facebook" height="25px" width="25"></img></a>
+                        <a href="https://www.snapchat.com/add/cableparadise">
+                            <img src="Content/Images/ngrzbgwugpzqhkbccway.png" alt="Facebook" height="25px" width="25"></img></a>
+                        <a href="https://www.youtube.com/channel/UCN2mvrhLPfp2Fyx6hUMkT-w?view_as=subscriber">
+                            <img src="Content/Images/social-youtube-icon.png" alt="Facebook" height="25px" width="25"></img></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="container body-content">
+            <center>
+                <br />
+                <h1 style="color:black"><%: Page.Title %></h1>
+                <img src="Content/Images/CPP big.png" alt="Cable Paradise Park Logo" height="98" width="200">
+                <br />
+                <br />
+            </center>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <footer><center>
+            <footer>
+                <center>
                 <p>&copy; <%: DateTime.Now.Year %> by Cable Paradise Park, LLC</p>
                 <p class="center">cableparadisepark@gmail.com</p>
                 <p class="center">704-807-4463</p>
                 <p class="center">9271 NC HWY 903, Ayden, NC</p>
-            </center></footer>
+            </center>
+            </footer>
         </div>
     </form>
 </body>
