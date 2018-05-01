@@ -4,18 +4,14 @@
 <div class="content" style=style="padding-top:20px;margin-bottom:25px">
     <center>
         <div style="padding: 10px; padding-left: 40px; padding-right: 40px;">
-            <p>Here at Cable Paradise Park, we allow users to schedule online or in person. If you wish to schedule ahead follow the button below to be redirected to our scheduling site.</p>
-            <a style="float:none;" target="_blank" href="https://my.setmore.com/bookanappointmentv3.do?uniqueKey=691c568a-a405-490b-92ab-76ad4da19999"><img border="none" src="https://my.setmore.com/webapp/images/bookappt/SetMore-book-button.png" alt="Book an appointment with Cable Paradise Park using SetMore"/></a>
-            <br />
+            <p>Here at Cable Paradise Park, we allow users to schedule online or in person. If you wish to schedule ahead, fill in your information below.</p>
             <br />
             <br />
             First Name:   <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             <br />
             Last Name:   <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             <br />
-            Pick a Date:   <asp:TextBox ID="TextBox3" runat="server" Width="17px"></asp:TextBox>
-            /<asp:TextBox ID="TextBox5" runat="server" Width="16px"></asp:TextBox>
-            /<asp:TextBox ID="TextBox6" runat="server" Width="50px"></asp:TextBox>
+            Pick a Date:   <asp:TextBox ID="TextBox6" runat="server" Width="50px"></asp:TextBox>
 &nbsp;(MM/DD/YYYY)<br />
             Pick a Start Time:   <asp:DropDownList ID="DropDownList1" runat="server">
                 <asp:ListItem>11:00</asp:ListItem>
